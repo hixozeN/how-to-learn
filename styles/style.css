@@ -1,3 +1,5 @@
+@import url(../blocks/rotation/rotation.css);
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -19,6 +21,7 @@
   position: relative;
   background-color: #f2f2f2;
   align-items: center;
+  overflow: hidden;
 }
 
 .header__title {
@@ -135,6 +138,91 @@
   font-weight: 600;
 }
 
+.techniques {
+  padding-top: 100px;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 920px;
+}
+
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  margin: 0 100px 0 0;
+}
+
+.cards__item:nth-of-type(3n) {
+  margin: 0;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  padding: 60px 40px 43px 40px;
+  margin: 0;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin: 0;
+  padding: 0 0 16px 0;
+  width: 240px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cards__description {
+  margin: 0;
+  padding: 0;
+  width: 240px;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.video {
+  padding-top: 100px;
+}
+
+.video__iframes {
+  top: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.video__iframe {
+  display: flex;
+  border: 0;
+  width: 515px;
+  height: 316px;
+  margin-right: 20px;
+}
+
+.video__iframe:nth-of-type(2n) {
+  margin: 0;
+}
+
+.oakley {
+  padding-top: 160px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
 .digits {
   padding: 100px 0 100px 0;
 }
@@ -173,7 +261,7 @@
   justify-content: space-between;
   margin: 0 auto 0 auto;
   padding-left: 0;
-  width: 1100px;
+  max-width: 1100px;
 }
 
 .table_theme_dark {
@@ -249,6 +337,79 @@
   text-decoration: none;
 }
 
+.khan {
+  padding-top: 105px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.khan__container {
+  width: 80%;
+}
+
+.khan__author {
+  padding: 0;
+  margin: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  padding: 0;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.khan__quote {
+  width: 790px;
+  padding: 0;
+  margin: 50px 0 36px 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  padding: 0;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.khan__quote-author-subline {
+  padding: 0;
+  margin: 10px 0 68px 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  display: flex;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.khan__buy-link {
+  padding: 0;
+  margin: 0 0 0 48px;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color:#2f80ed;
+  text-decoration: none;
+}
+
 .kaufman {
   padding: 90px 0 90px 0;
   background-color: #1f1f1f;
@@ -277,6 +438,30 @@
   z-index: 1;
 }
 
+.resources {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources__logo-zone {
+  list-style: none;
+  margin: 80px 0 217px 0;
+  padding: 0;
+  max-width: 1100px;
+  height: 38px;
+  display: flex;
+}
+
+.resources__link {
+  text-decoration: none;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
 
 
 .footer {
