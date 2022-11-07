@@ -5,8 +5,6 @@
     margin: 0 100px 0 0;
   }
 
-  @media screen and (min-width: 1200px) {
-    .cards__item:nth-last-of-type(3n) {
-      margin: 0;
-    }
+.cards__item:nth-last-of-type(3n) {
+    margin: 0;
   }
