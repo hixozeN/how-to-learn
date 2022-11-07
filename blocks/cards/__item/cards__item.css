@@ -3,6 +3,7 @@
     flex-direction: column;
     max-width: 240px;
     margin: 0 100px 0 0;
+    list-style: none;
   }
 
 .cards__item:nth-last-of-type(3n) {

@@ -1,7 +1,7 @@
 .header__title {
     margin: 0;
     padding: 0;
-    width: 730px;
+    max-width: 730px;
     z-index: 2;
     color: #000000;
     margin-left: 64px;
